@@ -1,16 +1,16 @@
 ---
-layout: default
+layout: section
 ---
 
-## My topic
-
-Here is a random logo <logos-slidev/>
-
-And here is a QR Code
-
-<QRCode m-auto value="https://andreas.taranetz.com" :size="300" :render-as="svg" :margin="1"/>
+<animated-text
+    text="The Dream"
+    font="parisienne"
+    :speed="3"
+    :effects="{ glow: { radius: 8, color: '#00ccff' }, gradient: { colors: 'rainbow' } }"
+    class="text-[100px]"
+  />
 
 ---
 layout: image
-image: /building-blocks.png
+image: /the-fantasy.png
 ---

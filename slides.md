@@ -1,12 +1,14 @@
 ---
 theme: default
-title: replace me
+title: Coding in VR
 info: |
-  ## My own slidev template
+  ## My ongoing quest to code in VR
 fonts:
   sans: Poppins
   mono: Fira Code
 transition: fade
+addons:
+  - slidev-addon-animated-text
 src: ./pages/00-intro.md
 ---
 

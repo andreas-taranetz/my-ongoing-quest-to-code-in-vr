@@ -23,6 +23,9 @@ importers:
       qrcode.vue:
         specifier: ^3.9.0
         version: 3.9.1(vue@3.5.34(typescript@5.9.3))
+      slidev-addon-animated-text:
+        specifier: ^0.3.3
+        version: 0.3.3(vue@3.5.34(typescript@5.9.3))
       vue:
         specifier: ^3.5.33
         version: 3.5.34(typescript@5.9.3)
@@ -2355,6 +2358,11 @@ packages:
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
+  slidev-addon-animated-text@0.3.3:
+    resolution: {integrity: sha512-m4yQ1zAxMR9zga3WeInmCzTFy0K3YsfQASIaTCksS/C/KEjqVv4y8mRnZceKj0pHao3UU2fv3IUfxXJ/OAvqiQ==}
+    peerDependencies:
+      vue: ^3.5.0
+
   source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
     engines: {node: '>=0.10.0'}
@@ -2404,6 +2412,23 @@ packages:
   super-regex@0.2.0:
     resolution: {integrity: sha512-WZzIx3rC1CvbMDloLsVw0lkZVKJWbrkJ0k1ghKFmcnPrW1+jWbgTkTEWVtD9lMdmI4jZEz40+naBxl1dCUhXXw==}
     engines: {node: '>=14.16'}
+
+  tegaki@0.13.0:
+    resolution: {integrity: sha512-CLNxDPfcxMtko0kR/9rNPZViBQSxyLFC1yBGKNO9XXoDyCUzrbspc72s0jC4WmA826/7k/nPAbtK8r44r0iOKQ==}
+    peerDependencies:
+      react: '>=18'
+      solid-js: '>=1'
+      svelte: '>=5'
+      vue: '>=3'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      solid-js:
+        optional: true
+      svelte:
+        optional: true
+      vue:
+        optional: true
 
   time-span@5.1.0:
     resolution: {integrity: sha512-75voc/9G4rDIJleOo4jPvN4/YC4GRZrY8yy1uU4lwrB3XEQbWve8zXoO5No4eFrGcTAMYyoY67p8jRQdtA1HbA==}
@@ -5564,6 +5589,15 @@ snapshots:
 
   sisteransi@1.0.5: {}
 
+  slidev-addon-animated-text@0.3.3(vue@3.5.34(typescript@5.9.3)):
+    dependencies:
+      tegaki: 0.13.0(vue@3.5.34(typescript@5.9.3))
+      vue: 3.5.34(typescript@5.9.3)
+    transitivePeerDependencies:
+      - react
+      - solid-js
+      - svelte
+
   source-map-js@1.2.1: {}
 
   space-separated-tokens@2.0.2: {}
@@ -5615,6 +5649,10 @@ snapshots:
       clone-regexp: 3.0.0
       function-timeout: 0.1.1
       time-span: 5.1.0
+
+  tegaki@0.13.0(vue@3.5.34(typescript@5.9.3)):
+    optionalDependencies:
+      vue: 3.5.34(typescript@5.9.3)
 
   time-span@5.1.0:
     dependencies:
