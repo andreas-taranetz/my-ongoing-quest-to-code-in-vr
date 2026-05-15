@@ -24,8 +24,8 @@ importers:
         specifier: ^3.9.0
         version: 3.9.1(vue@3.5.34(typescript@5.9.3))
       slidev-addon-animated-text:
-        specifier: ^0.3.3
-        version: 0.3.3(vue@3.5.34(typescript@5.9.3))
+        specifier: ^0.4.0
+        version: 0.4.0(@nuxt/kit@3.21.5)(vue@3.5.34(typescript@5.9.3))
       vue:
         specifier: ^3.5.33
         version: 3.5.34(typescript@5.9.3)
@@ -2358,8 +2358,8 @@ packages:
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
-  slidev-addon-animated-text@0.3.3:
-    resolution: {integrity: sha512-m4yQ1zAxMR9zga3WeInmCzTFy0K3YsfQASIaTCksS/C/KEjqVv4y8mRnZceKj0pHao3UU2fv3IUfxXJ/OAvqiQ==}
+  slidev-addon-animated-text@0.4.0:
+    resolution: {integrity: sha512-oZdy0LEImtP++aE68VDG+Z1J/3mMKtlyjkGmtwfCT+IWFtdCAOu9jpT9Lf7R56pZ+VuxLjFPnwSUEk3CKrdExg==}
     peerDependencies:
       vue: ^3.5.0
 
@@ -2413,14 +2413,20 @@ packages:
     resolution: {integrity: sha512-WZzIx3rC1CvbMDloLsVw0lkZVKJWbrkJ0k1ghKFmcnPrW1+jWbgTkTEWVtD9lMdmI4jZEz40+naBxl1dCUhXXw==}
     engines: {node: '>=14.16'}
 
-  tegaki@0.13.0:
-    resolution: {integrity: sha512-CLNxDPfcxMtko0kR/9rNPZViBQSxyLFC1yBGKNO9XXoDyCUzrbspc72s0jC4WmA826/7k/nPAbtK8r44r0iOKQ==}
+  tegaki@0.17.1:
+    resolution: {integrity: sha512-KhCl5I//xstclHVaBC8+IVjPDWQ7RoDL0gEcVLZz+coH1DCTC5VH0EypN2Cj+GS8JXHRGB51MkJQrfZ1XnAxiw==}
     peerDependencies:
+      '@nuxt/kit': ^3.0.0 || ^4.0.0
+      harfbuzzjs: ^0.10.3
       react: '>=18'
       solid-js: '>=1'
       svelte: '>=5'
       vue: '>=3'
     peerDependenciesMeta:
+      '@nuxt/kit':
+        optional: true
+      harfbuzzjs:
+        optional: true
       react:
         optional: true
       solid-js:
@@ -5589,11 +5595,13 @@ snapshots:
 
   sisteransi@1.0.5: {}
 
-  slidev-addon-animated-text@0.3.3(vue@3.5.34(typescript@5.9.3)):
+  slidev-addon-animated-text@0.4.0(@nuxt/kit@3.21.5)(vue@3.5.34(typescript@5.9.3)):
     dependencies:
-      tegaki: 0.13.0(vue@3.5.34(typescript@5.9.3))
+      tegaki: 0.17.1(@nuxt/kit@3.21.5)(vue@3.5.34(typescript@5.9.3))
       vue: 3.5.34(typescript@5.9.3)
     transitivePeerDependencies:
+      - '@nuxt/kit'
+      - harfbuzzjs
       - react
       - solid-js
       - svelte
@@ -5650,8 +5658,9 @@ snapshots:
       function-timeout: 0.1.1
       time-span: 5.1.0
 
-  tegaki@0.13.0(vue@3.5.34(typescript@5.9.3)):
+  tegaki@0.17.1(@nuxt/kit@3.21.5)(vue@3.5.34(typescript@5.9.3)):
     optionalDependencies:
+      '@nuxt/kit': 3.21.5
       vue: 3.5.34(typescript@5.9.3)
 
   time-span@5.1.0:
