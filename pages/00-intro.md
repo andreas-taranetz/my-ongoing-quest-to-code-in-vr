@@ -34,6 +34,13 @@ How it started
 layout: image
 image: /2003-05.jpg
 backgroundSize: contain
+transition: fade
+---
+
+---
+layout: image
+image: /ti84.jpg
+backgroundSize: contain
 transition: slide-down
 ---
 
