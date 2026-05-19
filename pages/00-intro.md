@@ -57,14 +57,19 @@ transition: fade-out
 
 ## Definition of <green>perfect</green>
 
-<v-clicks mt-10>
+<v-clicks mt-10 class="fade-list">
 
-- works everywhere
+- independent tools
+
+- work everywhere
   - at work
   - at home
   - in between
+
 - as similar as possible
-- is ergonomic
+
+- ergonomic
+
 - could work offline
 - gets approval from procurement\*
 
@@ -88,7 +93,9 @@ transition: fade-out
 
 <!--
 Glasses are close to perfect tools
-Can be worn all day 
+Portable enough to be used everywhere
+Ergonomic enough to be used all day 
+Require prescription but no subscription
 They become close to invisible for the wearer
 But you need to stick with a specific pair
 -->

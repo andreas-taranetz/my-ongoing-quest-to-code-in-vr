@@ -1,0 +1,8 @@
+.fade-list :is(li, p) {
+  transition: opacity 0.3s ease;
+}
+
+.fade-list .slidev-vclick-hidden {
+  opacity: 0;
+  visibility: inherit !important;
+}

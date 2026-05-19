@@ -30,6 +30,12 @@ layout: image
 image: /zsa-voyager.jpg
 ---
 
+<!--
+Ortholiniar
+Layers
+Works without special software on the machine I connect it to
+-->
+
 ---
 layout: iframe
 url: https://configure.zsa.io/voyager/layouts/rdYN7/latest/0
