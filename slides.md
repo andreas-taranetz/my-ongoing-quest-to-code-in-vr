@@ -21,3 +21,7 @@ src: ./pages/01-keyboards.md
 ---
 src: ./pages/02-monitors.md
 ---
+
+---
+src: ./pages/03-headsets.md
+---

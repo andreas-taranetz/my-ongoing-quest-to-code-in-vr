@@ -34,13 +34,26 @@ How it started
 layout: image
 image: /2003-05.jpg
 backgroundSize: contain
-transition: fade
+transition: slide-left
 ---
+
+<!--
+mouse seemed not so important
+
+digging through my old stuff I also found this ...
+-->
 
 ---
 layout: image
 image: /ti84.jpg
 backgroundSize: contain
+transition: slide-left
+---
+
+---
+layout: image
+image: /ti84-programming.png
+backgroundSize: 300
 transition: slide-down
 ---
 
@@ -66,11 +79,10 @@ transition: fade-out
   - at home
   - in between
 
-- as similar as possible
-
 - ergonomic
 
 - could work offline
+
 - gets approval from procurement\*
 
 </v-clicks>
