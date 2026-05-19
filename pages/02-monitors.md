@@ -130,11 +130,11 @@ layout: center
 transition: view-transition
 ---
 
-<img src='/get-closer.jpeg' class="view-transition-title" width="50" />
+<img src='./assets/get-closer.jpg' class="view-transition-title" width="50" />
 
 ---
 layout: center
 transition: fade-out
 ---
 
-<img src='/get-closer.jpeg' class="view-transition-title" width="700" />
+<img src='./assets/get-closer.jpg' class="view-transition-title" width="700" />
