@@ -25,3 +25,7 @@ src: ./pages/02-monitors.md
 ---
 src: ./pages/03-headsets.md
 ---
+
+---
+src: ./pages/04-software.md
+---

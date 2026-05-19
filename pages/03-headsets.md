@@ -65,13 +65,13 @@ transition: view-transition
 class: text-center
 ---
 
-<img class="view-transition-title" src="../pixel-buds-modes.png" />
+<img class="view-transition-title" src="/pixel-buds-modes.png" />
 
 ---
 transition: slide-down
 ---
 
-<img width="380" class="mx-auto view-transition-title" src="../pixel-buds-modes.png" />
+<img width="380" class="mx-auto view-transition-title" src="/pixel-buds-modes.png" />
 
 <div v-click.fade-in>
 <purple text-3xl abs-bl ml-118>
@@ -109,3 +109,7 @@ layout: iframe
 url: https://vr-compare.com/compare?h1=w8xCM-oPA&h2=Odlfnpa2w&h3=0q3goALzg&h4=HYDBLMvbu&h5=qmdzGfchi
 scale: 0.8
 ---
+
+<!--
+Meta Quest 3 is a solid and cheap option
+-->
