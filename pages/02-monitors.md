@@ -134,7 +134,6 @@ transition: view-transition
 
 ---
 layout: center
-transition: fade-out
 ---
 
 <img src='./assets/get-closer.jpg' class="view-transition-title" width="700" />

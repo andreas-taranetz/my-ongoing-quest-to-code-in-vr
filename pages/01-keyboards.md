@@ -1,6 +1,6 @@
 ---
 layout: section
-zoom: 2
+zoom: 3
 ---
 
 <kbd>K</kbd><kbd>e</kbd><kbd>y</kbd><kbd>b</kbd><kbd>o</kbd><kbd>a</kbd><kbd>r</kbd><kbd>d</kbd><kbd>s</kbd>

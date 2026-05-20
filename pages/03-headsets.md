@@ -14,7 +14,7 @@ transition: fade-out
     text="The Dream"
     font="parisienne"
     :speed="4"
-    :delay="1"
+    :delay="0.5"
     :effects="{ globalGradient: { colors: ['#f0f','#44f','#0ff', '#0f0', '#ff0', '#f00']  } }"
     class="text-[100px]"
   />
