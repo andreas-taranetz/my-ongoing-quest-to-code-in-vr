@@ -31,18 +31,6 @@ but what we got instead...
 -->
 
 ---
-layout: image
-image: /metaverse-beginnings.jpg
-backgroundSize: contain
-transition: slide-left
----
-
-<!--
-Avatars without legs
-Horizon Worlds can now be deleted from your headset
--->
-
----
 layout: section
 transition: slide-up
 ---
