@@ -84,6 +84,7 @@ transition: slide-left
 layout: iframe
 url: https://vr-compare.com/compare?h1=0iz9ksGZA&h2=LUx-f7dXc&h3=_IiTfLZMZ
 scale: 0.8
+transition: slide-left
 ---
 
 <!--
@@ -96,6 +97,7 @@ ppd vs ppi, regular screen can have 70ppd
 layout: iframe
 url: https://vr-compare.com/compare?h1=w8xCM-oPA&h2=Odlfnpa2w&h3=0q3goALzg&h4=HYDBLMvbu&h5=qmdzGfchi
 scale: 0.8
+transition: slide-left
 ---
 
 <!--
